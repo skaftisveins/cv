@@ -4,32 +4,37 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>🔰 Skafti's Personal Site</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="favicon.ico" />
+    <title>Skafti's Personal Site</title>
   </head>
   <body>
-    <table cellspacing="20">
-      <tr>
-        <td>
-          <img
-            src="images/skafti-mynd-2020.jpg"
-            alt="skaftisveins image photo"
-            height="200"
-            width="200"
-          />
-        </td>
-        <td>
-          <h1>Skafti Sveinsson</h1>
-          <p>
-            <em
-              >Software developer in
-              <strong>Python - Flutter and React</strong></em
-            >
-          </p>
-          <p>Enthusiastic Python and Flutter programmer</p>
-        </td>
-      </tr>
-    </table>
+    <div class="top-container">
+      <table cellspacing="20">
+        <tr>
+          <td>
+            <img
+              class="profile-img"
+              src="images/skafti-mynd-2020.jpg"
+              alt="skaftisveins-img"
+              height="200"
+              width="200"
+            />
+          </td>
+          <td>
+            <h1 id="heading">Skafti Sveinsson</h1>
+            <p>
+              <em
+                >Software developer in
+                <strong>Python - Flutter and React</strong></em
+              >
+            </p>
+            <p>Enthusiastic Python and Flutter programmer</p>
+          </td>
+          <td><img src="images/cloud.png" alt="cloud-img" /></td>
+        </tr>
+      </table>
+    </div>
 
     <hr />
     <h3>Menntun:</h3>
@@ -85,7 +90,7 @@
         <tr>
           <td>
             <strong
-              >2014-2020
+              >2014-2021
               <a href="www.hoppogskopp.is">Hopp og Skopp</a>
             </strong>
           </td>
@@ -120,7 +125,15 @@
           <td></td>
         </tr>
       </tbody>
-      <tfoot></tfoot>
+      <tfoot>
+        <td>
+          <img
+            class="mountain-img"
+            src="images/mountain.png"
+            alt="mountain-img"
+          />
+        </td>
+      </tfoot>
     </table>
     <hr />
     <h3>Námskeið</h3>
@@ -177,6 +190,13 @@
             </tr>
           </table>
         </td>
+        <td>
+          <img
+            class="computer-img"
+            src="images/computer.png"
+            alt="computer-img"
+          />
+        </td>
       </tr>
     </table>
     <hr />
@@ -187,8 +207,9 @@
       <li>Programming</li>
       <li>Workout</li>
     </ol>
-    <a href="contact-me.html">Contact Me</a>
-    <a href="styrkleikar.html">Styrkleikar</a>
-    <a href="about.html">About Me</a>
+    <a class="link" href="contact-me.html">Contact Me</a>
+    <a class="link" href="styrkleikar.html">Styrkleikar</a>
+    <a class="link" href="square-challenge.html">Squares</a>
+    <a class="link" href="about.html">About Me</a>
   </body>
 </html>

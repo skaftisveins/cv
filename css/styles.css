@@ -1,0 +1,86 @@
+/* TAG SELECTORS */
+
+body {
+  background-color: lightslategrey;
+}
+
+/* div {
+  padding: 20px;
+} */
+
+/* img {
+  border: solid;
+} */
+
+hr {
+  border-style: dashed solid;
+  width: 4%;
+}
+
+h3 {
+  font-style: oblique;
+}
+
+/* CLASS SELECTORS */
+
+.link {
+  font-style: italic;
+}
+
+.profile-img {
+  border: solid;
+}
+
+.mountain-img {
+  /* height: 100px; */
+  display: block;
+  margin: auto;
+  width: 20%;
+}
+
+.computer-img {
+  display: block;
+  margin: auto;
+  width: 30%;
+}
+
+/* .top-container {
+  height: 200px;
+  width: 200px;
+  background-color: blueviolet;
+} */
+
+/* ID SELECTORS */
+
+#heading {
+  color: black;
+}
+
+/* BORDER-CHALLENGE */
+
+.red-square {
+  display: inline-block;
+  position: relative;
+  left: 212px;
+  background-color: red;
+  height: 100px;
+  width: 100px;
+}
+
+.blue-square {
+  display: inline-block;
+  position: relative;
+  right: 100px;
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+}
+
+.yellow-square {
+  display: inline-block;
+  position: relative;
+  right: 100px;
+  background-color: yellow;
+  height: 100px;
+  width: 100px;
+}
